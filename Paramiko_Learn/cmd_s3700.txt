@@ -1,0 +1,7 @@
+system-view
+interface vlan 1
+description Python_S3700
+display this
+return
+save
+y
