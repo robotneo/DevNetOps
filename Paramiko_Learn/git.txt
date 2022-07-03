@@ -1,0 +1,37 @@
+# 关联gitee
+git remote add gitee https://gitee.com/cigoos/mycode.git
+git push gitee master
+
+# 关联github
+git remote add github https://github.com/cigoos/mycode.git
+git push github master
+
+neo@yanghua MINGW64 /d/code/PycharmProjects/Learn/DevNetOps (main)
+$ git commit -m "two"
+On branch main
+Your branch is up to date with 'github/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Paramiko_Learn/paramiko_learn_eight.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+neo@yanghua MINGW64 /d/code/PycharmProjects/Learn/DevNetOps (main)
+$ git push github main
+Everything up-to-date
+
+neo@yanghua MINGW64 /d/code/PycharmProjects/Learn/DevNetOps (main)
+$ git push github github/main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/robotneo/DevNetOps.git
+ * [new reference]   github/main -> github/main
+
+neo@yanghua MINGW64 /d/code/PycharmProjects/Learn/DevNetOps (main)
+$ git push github gitee/main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/robotneo/DevNetOps.git
+ * [new reference]   gitee/main -> gitee/main
+
+neo@yanghua MINGW64 /d/code/PycharmProjects/Learn/DevNetOps (main)

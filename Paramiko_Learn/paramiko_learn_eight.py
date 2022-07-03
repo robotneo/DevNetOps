@@ -6,3 +6,6 @@
 # @File    : paramiko_learn_eight
 # @Software: PyCharm
 
+import paramiko
+import time
+
